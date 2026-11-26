@@ -1,0 +1,19 @@
+{
+  "tenant_domain": "contoso.onmicrosoft.com",
+  "departments": {
+    "Finance": {
+      "Analyst": ["SG-Finance-Users", "APP-Salesforce-Users"],
+      "Manager": ["SG-Finance-Users", "SG-Finance-Managers", "APP-Salesforce-Users"]
+    },
+    "Sales": {
+      "Account Executive": ["SG-Sales-Users", "APP-Salesforce-Users", "APP-Slack-Users"]
+    },
+    "Engineering": {
+      "Software Engineer": ["SG-Engineering-Users", "APP-Atlassian-Users", "APP-Slack-Users"]
+    },
+    "People": {
+      "HR Advisor": ["SG-People-Users", "APP-Slack-Users"]
+    }
+  },
+  "blocked_keywords": ["admin", "global", "owner", "privileged", "root", "domain admins"]
+}
